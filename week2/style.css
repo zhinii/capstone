@@ -67,16 +67,18 @@ ol li{
 .stepList {
 	position: absolute;
 	width: 100%;
+	top: 100px;
 }
 
 #menu {
-	padding-top: 20px;
+	
 }
 
 #content {
 	background-color: grey;
 	position: absolute;
-	padding-top: 75px;
+	/*padding-top: 75px;*/
+	top: 180px;
 	width: 33%;
 	padding-left: 15px;
 	z-index: -1;
@@ -89,16 +91,20 @@ ol li{
 	width: 90%;
 	align-content: center;
 	position: absolute;
-	
+
 }
 
 #threeD {
 	position: absolute;
 	background-color: blue;
 	height: 80%;
-	padding-top: 75px;
+	top: 180px;
 	left: 36%;
 	width: 60%;
 		z-index: -1;
 
+}
+
+body{
+	font-family: Arial;
 }
