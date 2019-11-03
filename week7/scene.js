@@ -23,17 +23,34 @@ const scene = new THREE.Scene();
 
 loader.load('head.glb',function(gltf){
 
-	var obj = gltf.asset;
-    scene.add(obj);  
+    scene.add(gltf.scene);  
+    
     });
 
 
+loader.load('head2.glb',function(gltf){
+
+    scene.add(gltf.scene); 
+
+     stepList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sp2'){
+		gltf.scene.visible = false;
+	}
+	else if (event.target.id === 'sp5'){
+		gltf.scene.visible = false;
+	}
+	else {
+		gltf.scene.visible = true;
+	}
+	});
+
+    });
+
      
      loader.load('s1arrow.glb',function(gltf){
-
     scene.add(gltf.scene);  
     	gltf.scene.visible = false;
-
 
     stepList.addEventListener('click', function(){
     for (var i = 0; i < allSteps.length; i ++)
@@ -49,10 +66,9 @@ loader.load('head.glb',function(gltf){
      
      loader.load('s1obj.glb',function(gltf){
     scene.add(gltf.scene);  
-
     stepList.addEventListener('click', function(){
     for (var i = 0; i < allSteps.length; i ++)
-	if (event.target.id === 'sp1'){
+	if (event.target.id === 'sp1') {
 		gltf.scene.visible = true;
 	}
 	else {
@@ -71,6 +87,7 @@ loader.load('head.glb',function(gltf){
 	if (event.target.id === 'sp2'){
 		gltf.scene.visible = true;
 	}
+
 	else {
 		gltf.scene.visible = false;
 	}
@@ -79,11 +96,14 @@ loader.load('head.glb',function(gltf){
      
      loader.load('s2obj.glb',function(gltf){
     scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
   stepList.addEventListener('click', function(){
     for (var i = 0; i < allSteps.length; i ++)
-	if (event.target.id === 'sp2'){
+	if (event.target.id === 'sp2') {
 		gltf.scene.visible = true;
 	}
+
 	else {
 		gltf.scene.visible = false;
 	}
@@ -166,6 +186,23 @@ loader.load('head.glb',function(gltf){
      
      loader.load('s5obj.glb',function(gltf){
     scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
+
+    stepList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sp5'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+    });
+
+     loader.load('s5clearobj.glb',function(gltf){
+    scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
 
     stepList.addEventListener('click', function(){
     for (var i = 0; i < allSteps.length; i ++)
@@ -195,6 +232,8 @@ loader.load('head.glb',function(gltf){
      
      loader.load('s6obj.glb',function(gltf){
     scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
 
     stepList.addEventListener('click', function(){
     for (var i = 0; i < allSteps.length; i ++)
@@ -225,6 +264,8 @@ loader.load('head.glb',function(gltf){
      
      loader.load('s7obj.glb',function(gltf){
     scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
 
      stepList.addEventListener('click', function(){
     for (var i = 0; i < allSteps.length; i ++)
