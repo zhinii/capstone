@@ -48,6 +48,9 @@ loader.load('head2.glb',function(gltf){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = true;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = true;
+		}
     });
 
     });
@@ -69,6 +72,9 @@ loader.load('head2.glb',function(gltf){
  
 	menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
 			gltf.scene.visible = false;
 		}
     });
@@ -93,6 +99,9 @@ menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = true;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = true;
+		}
     });
 
     });
@@ -113,6 +122,9 @@ menu.addEventListener('click', function(){
 	});
 		menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
 			gltf.scene.visible = false;
 		}
     });
@@ -136,6 +148,9 @@ menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
     });
     });
      
@@ -156,6 +171,9 @@ menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
     });
     });
      
@@ -173,6 +191,9 @@ menu.addEventListener('click', function(){
 	});
 	menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
 			gltf.scene.visible = false;
 		}
     });
@@ -195,6 +216,9 @@ menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
     });
     });
      
@@ -212,6 +236,9 @@ menu.addEventListener('click', function(){
 	});
      menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
 			gltf.scene.visible = false;
 		}
     });
@@ -232,6 +259,9 @@ menu.addEventListener('click', function(){
 	});
 	menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
 			gltf.scene.visible = false;
 		}
     });
@@ -255,6 +285,9 @@ menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
     });
     });
 
@@ -275,6 +308,9 @@ menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
     });
     });
      
@@ -293,6 +329,9 @@ menu.addEventListener('click', function(){
 	});
 	menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
 			gltf.scene.visible = false;
 		}
     });
@@ -316,6 +355,9 @@ menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
     });
     });
      
@@ -337,6 +379,9 @@ menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
 		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
     });
     });
      
@@ -356,6 +401,9 @@ menu.addEventListener('click', function(){
 	});
      menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
 			gltf.scene.visible = false;
 		}
     });
