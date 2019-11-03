@@ -44,6 +44,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = true;
 	}
 	});
+     menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = true;
+		}
+    });
 
     });
 
@@ -61,8 +66,13 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
-
+ 
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
     });
+});
      
      loader.load('s1obj.glb',function(gltf){
     scene.add(gltf.scene);  
@@ -71,10 +81,19 @@ loader.load('head2.glb',function(gltf){
 	if (event.target.id === 'sp1') {
 		gltf.scene.visible = true;
 	}
+	else if(event.target.id === 'sp8') {
+		gltf.scene.visible = true;
+	}
 	else {
 		gltf.scene.visible = false;
 	}
 	});
+
+menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = true;
+		}
+    });
 
     });
 
@@ -92,6 +111,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+		menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
      loader.load('s2obj.glb',function(gltf){
@@ -108,7 +132,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
-
+menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
          loader.load('s3arrow.glb',function(gltf){
@@ -124,6 +152,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
      loader.load('s3obj.glb',function(gltf){
@@ -138,6 +171,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
          loader.load('s4arrow.glb',function(gltf){
@@ -153,6 +191,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
      loader.load('s4obj.glb',function(gltf){
@@ -167,6 +210,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+     menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
 
          loader.load('s5arrow.glb',function(gltf){
@@ -182,6 +230,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
      loader.load('s5obj.glb',function(gltf){
@@ -198,6 +251,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
 
      loader.load('s5clearobj.glb',function(gltf){
@@ -213,6 +271,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
          loader.load('s6arrow.glb',function(gltf){
@@ -228,6 +291,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
      loader.load('s6obj.glb',function(gltf){
@@ -244,6 +312,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
 
@@ -260,6 +333,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+	menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
      loader.load('s7obj.glb',function(gltf){
@@ -276,6 +354,11 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+     menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+    });
     });
      
      
