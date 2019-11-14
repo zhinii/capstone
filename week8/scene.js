@@ -69,6 +69,17 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = false;
 	}
 	});
+
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf1'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
  
 	menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
@@ -88,6 +99,19 @@ loader.load('head2.glb',function(gltf){
 		gltf.scene.visible = true;
 	}
 	else if(event.target.id === 'sp8') {
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+
+	fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf1'){
+		gltf.scene.visible = true;
+	}
+	else if (event.target.id === 'sf7'){
 		gltf.scene.visible = true;
 	}
 	else {
@@ -120,6 +144,18 @@ menu.addEventListener('click', function(){
 		gltf.scene.visible = false;
 	}
 	});
+
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf2'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+
 		menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
@@ -140,6 +176,17 @@ menu.addEventListener('click', function(){
 		gltf.scene.visible = true;
 	}
 
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf2'){
+		gltf.scene.visible = true;
+	}
 	else {
 		gltf.scene.visible = false;
 	}
@@ -183,6 +230,25 @@ menu.addEventListener('click', function(){
     stepList.addEventListener('click', function(){
     for (var i = 0; i < allSteps.length; i ++)
 	if (event.target.id === 'sp3'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+
+	 fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf3'){
+		gltf.scene.visible = true;
+	}
+	else if (event.target.id === 'sf2'){
+		gltf.scene.visible = true;
+	}
+	else if (event.target.id === 'sf4'){
+		gltf.scene.visible = true;
+	}
+	else if (event.target.id === 'sf5'){
 		gltf.scene.visible = true;
 	}
 	else {
@@ -375,6 +441,16 @@ menu.addEventListener('click', function(){
 		gltf.scene.visible = false;
 	}
 	});
+fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf6'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+
 	menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
@@ -399,6 +475,16 @@ menu.addEventListener('click', function(){
 		gltf.scene.visible = false;
 	}
 	});
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf6'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
      menu.addEventListener('click', function(){
 		if (event.target.id === 'printhead'){
 			gltf.scene.visible = false;
@@ -408,6 +494,134 @@ menu.addEventListener('click', function(){
 		}
     });
     });
+     
+
+       loader.load('21arrow.glb',function(gltf){
+    scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf3'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+     menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
+    });
+    });
+     
+
+
+       loader.load('21obj.glb',function(gltf){
+    scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf3'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+     menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
+    });
+    });
+     
+  loader.load('22arrow.glb',function(gltf){
+    scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf4'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+     menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
+    });
+    });
+     
+
+
+       loader.load('22obj.glb',function(gltf){
+    scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf4'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+     menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
+    });
+    });
+     
+
+       loader.load('23arrow.glb',function(gltf){
+    scene.add(gltf.scene);  
+        	gltf.scene.visible = false;
+
+
+     fanList.addEventListener('click', function(){
+    for (var i = 0; i < allSteps.length; i ++)
+	if (event.target.id === 'sf5'){
+		gltf.scene.visible = true;
+	}
+	else {
+		gltf.scene.visible = false;
+	}
+	});
+     menu.addEventListener('click', function(){
+		if (event.target.id === 'printhead'){
+			gltf.scene.visible = false;
+		}
+		else if(event.target.id === 'fan'){
+			gltf.scene.visible = false;
+		}
+    });
+    });
+     
+
      
      
 

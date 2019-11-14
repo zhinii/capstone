@@ -149,5 +149,12 @@ if (event.target.id === 'sf3'){
 	else {
 		allSteps[14].style.visibility = 'hidden';
 	}
+	if (event.target.id === 'sf7'){
+			
+		allSteps[15].style.visibility = 'visible';
+	}
+	else {
+		allSteps[15].style.visibility = 'hidden';
+	}
 
 })
