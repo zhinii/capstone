@@ -18,7 +18,7 @@ const scene = new THREE.Scene();
   camera.position.y = 8;
       controls.update();
 
-//add model object eher
+//add model object her
 
 
 loader.load('head.glb',function(gltf){
