@@ -1,0 +1,40 @@
+This is capstone repository
+
+9/23/19
+Weekly Report
+
+Accomplishment
+Started working on the ux. Laid out basic templates for actions and their associated steps. Made the button interactive/scalable on mouse hover to make it clear to users what they are selecting.
+
+Difficulties.
+Had trouble with some CSS and proper layout. I have multiple objects that occupy the same space in the page and need to figure out how to get them to share that space.
+
+What to do next
+Finish the layout of the webpage, make space for the 3d objects and the annotated objects/instructional content.
+
+
+Oct 6 Report
+ 
+I think i've got the general UI figured out. Things appears to be arranged correctly and displaying appropriate behavior. I've got each step populated with instructions that show/hide depending on button clicked. 
+My current issues are annotating the 3d model and then getting it to render in the browser. given the file size, i'm trying to see how i can reduce it so the browser isn't having to load a 70mb model.  
+GLTF file format seems to be the new standard for rendering 3d objects, but when converting my obj file to gltf there is some deformations that occur. So i'm currently trying to remedy this issue.
+
+Oct 20 report
+
+I've got the 3d model in rhino 3d annotated with arrows etc. My next step is to get this model uploaded online and viewable in the browser.
+In addition getting the 3d model annotated, i was able to get the library threejs to render .glb files. These file types are what the 3d model will be converted to to create a smaller file for browser to upload as opposed to obj/stl file types. 
+To run this locally, i did have to install nodejs and run a local server as security issues with browser won't let threejs run locally without a server running.
+IN the next 2 weeks  i hope to have the entire mode uploaded and component associated behaviorally with their steps. 
+
+Progress Report Nov 3, 2019
+
+I've been able to flush out all the 3d models and implement them into the scene. Additionally have they correlated with their step/show buttons. It all seems to make sense and if logical, but user testing could help shed light on deficiencies. 
+I think it would be helpful to include links to 2d images that correspond with written instructions that users could click on as well. Will likely work on this in a few weeks. 
+My next step is to get the next process done, exporting 3d assets, writing instructions and implementing into the scene.
+
+11.17,19  report
+
+Alot of progress. Added a second workflow for fan replacement. Included all digital components and written steps.
+
+The project as a minimum seems complete.  All 3d assets exist, instruction exist. everything is clickable and navigable. Depending on my current time availability, it may be help to start to embed 2d images. 
+Given my work schedule coincides with harvard finals schedule, my time is becoming more limited. but happy that the project basic have been accomplished. The newest updates can be seen on the github week 8.  https://github.com/zhinii/capstone/tree/master/week8
